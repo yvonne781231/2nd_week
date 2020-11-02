@@ -1,0 +1,197 @@
+/*** css reset start ***/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*** css reset end ***/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+
+/* font-family */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.header h1{
+    font-weight: 900;
+    font-size:80px;
+    line-height: 94px;
+}
+.title{
+    font-weight: 500;
+    font-size:64px;
+    line-height: 75px;
+    padding-top: 64px;
+}
+.bold-24-42{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+}
+.bold-24-36{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.medium-20-30{
+    font-weight: 500;
+    font-size:20px;
+    line-height: 30px;
+}
+.medium-20-42{
+    font-weight: 500;
+    font-size:20px;
+    line-height: 42px;
+}
+.ta-center{
+    text-align: center;
+}
+.ta-left{
+    text-align: left;
+}
+
+/* style */
+.text-white{
+    color: #fff;
+}
+.background-black{
+    background-color: #000;
+    padding-bottom: 80px;
+}
+/* margin-bottom */
+.mb-1{margin-bottom: 8px;}.mb-2{margin-bottom: 16px;}.mb-3{margin-bottom: 24px;}.mb-4{margin-bottom: 32px;}.mb-5{margin-bottom: 40px;}.mb-6{margin-bottom: 48px;}.mb-7{margin-bottom: 56px;}
+
+/* flex */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.justifyContent-center{
+    justify-content: center;
+}
+.flexItem1{
+    width: 384px;
+}
+.flexItem2{
+    width: 588px;
+}
+
+/* block */
+.img-db{
+    display: block;
+}
+
+/*** layou ***/
+.container1{
+    width: 384px;
+    margin: 0 auto;
+    text-align: center; 
+}
+.container2{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* header */
+.header{
+    height: 100vh;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week2/banner.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.headerContent{
+    margin-bottom: 268px;
+}
+.headerContact{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about */
+.introTop{
+    padding: 24px 0px;
+    border-bottom: 1px solid #000;
+}
+.introBottom{
+    padding: 24px 0px;
+}
+.introBottom li:before{
+    content:"•";
+    margin-right: 16px;
+    color:#891818;
+}
+
+/* brand */
+.brandContent{
+    margin-bottom: 68px;
+}
+.brandImg-list{
+    margin-bottom: 80px;
+}
+
+/* works */
+.works{
+    margin-bottom: 160px;
+}
+
+/* footer & brand */
+
+/* footer */
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#891818;
+    text-decoration: underline;
+}
+
